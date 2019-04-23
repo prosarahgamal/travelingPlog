@@ -1,0 +1,92 @@
+
+html{
+background-repeat:no-repeat;
+background-position:fixed;
+background-position:0 0;
+-webkit-background-size:/*@@prefixmycss->No equivalent*/;
+-moz-background-size:cover;
+-o-background-size:/*@@prefixmycss->No equivalent*/;
+background-size:cover;
+}
+
+body.login{
+background:none;
+height:auto;
+}
+
+body.login div#login h1{
+}
+
+
+body.login div#login form#loginform p{
+}
+body.login div#login form#loginform p label, body.login div#login form#lostpasswordform p label{
+color:#fff;
+}
+body.login div#login form#loginform input, body.login div#login form#lostpasswordform input{
+border:0 solid;
+-webkit-border-radius:0;
+-moz-border-radius:0;
+border-radius:0;
+}
+body.login div#login form#loginform input#user_login{
+}
+body.login div#login form#loginform input#user_pass{
+}
+body.login div#login form#loginform p.forgetmenot{
+}
+body.login div#login form#loginform p.forgetmenot input#rememberme{
+}
+body.login div#login form#loginform p.submit{
+}
+body.login div#login form#loginform p.submit input#wp-submit, body.login div#login form#lostpasswordform p.submit input#wp-submit{
+background:url(images/outer.png);
+border:0 solid;
+-webkit-border-radius:0;
+-moz-border-radius:0;
+border-radius:0;
+-webkit-box-shadow:0 0 0;
+-moz-box-shadow:0 0 0;
+box-shadow:0 0 0;
+}
+body.login div#login form#loginform p.submit input#wp-submit:hover, body.login div#login form#lostpasswordform p.submit input#wp-submit:hover{
+text-shadow:0 0 0;
+opacity:.6;
+}
+body.login div#login a{
+color:#FFFFFF ;
+text-decoration:none;
+text-shadow:0 0 0;
+}
+body.login div#login p#nav{
+}
+body.login div#login p#nav a{
+}
+body.login div#login p#backtoblog{
+}
+body.login div#login p#backtoblog a{
+}
+
+
+
+body.login div.error, body.login #login_error {
+  background-color: #CC0000;
+  border: 0 solid;
+  border-radius: 0;
+  color: #FFFFFF;
+  margin: 0 0 15px;
+}
+
+body.login div.updated, body.login .message {
+  background-color: #FFFFE0;
+  border: 0 solid;
+  border-radius: 0;
+  margin: 0 0 15px;
+}
+#login_error, .login .message {
+  margin-bottom: 24px;
+  margin-left: 6px;
+  margin-top: -26px;
+  padding: 13px;
+  width: 293px;
+}
